@@ -1,0 +1,19 @@
+Return-Path: <bounce@lists.owasp-pune.example>
+Received: from mail.lists.owasp-pune.example (192.0.2.68) by
+ mx.lab-corp.example with ESMTPS; Sat, 10 Oct 2026 09:26:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=fail
+ smtp.mailfrom=lists.owasp-pune.example; dkim=fail
+ header.d=partner-uni.example; dmarc=fail header.from=partner-uni.example
+DKIM-Signature: v=1; a=rsa-sha256; d=partner-uni.example; s=sel1;
+ h=from:subject; bh=LAB; b=LAB
+From: Rohan Mehta <member1@partner-uni.example>
+To: Amit Verma <user55@lab-corp.example>
+Subject: [owasp-pune] Meetup 2 slides
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <8bd8b2371ea4e993@partner-uni.example>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Slides from the last OWASP Pune chapter meetup are on the chapter page.

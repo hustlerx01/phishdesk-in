@@ -1,0 +1,22 @@
+Return-Path: <bounce@bhim-upi-refund.site>
+Received: from mail.bhim-upi-refund.site (198.51.100.220) by
+ mx.lab-corp.example with ESMTPS; Sat, 10 Oct 2026 15:07:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=pass
+ smtp.mailfrom=bhim-upi-refund.site; dkim=pass header.d=bhim-upi-refund.site;
+ dmarc=none header.from=bhim-upi-refund.site
+DKIM-Signature: v=1; a=rsa-sha256; d=bhim-upi-refund.site; s=sel1;
+ h=from:subject; bh=LAB; b=LAB
+From: Cashback Team <noreply@bhim-upi-refund.site>
+To: Kavya Iyer <user20@lab-corp.example>
+Subject: Rs 69,981 cashback credited - approve to receive
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <54ac9bccd3ac8244@bhim-upi-refund.site>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Congratulations! You won cashback. To receive the money, approve the collect =
+request from refund35@ybl and enter UPI PIN.
+Pay link: upi://pay?pa=3Drefund35@ybl&pn=3DRefund&am=3D1999
+Claim before it expires: https://bhim-upi-refund.site/claim

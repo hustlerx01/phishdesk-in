@@ -1,0 +1,19 @@
+Return-Path: <bounce@xn--hdfcbnk-4wa.com>
+Received: from mail.xn--hdfcbnk-4wa.com (203.0.113.56) by mx.lab-corp.example
+ with ESMTPS; Sat, 10 Oct 2026 08:41:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=pass
+ smtp.mailfrom=xn--hdfcbnk-4wa.com; dkim=pass header.d=xn--hdfcbnk-4wa.com;
+ dmarc=pass header.from=xn--hdfcbnk-4wa.com
+DKIM-Signature: v=1; a=rsa-sha256; d=xn--hdfcbnk-4wa.com; s=sel1;
+ h=from:subject; bh=LAB; b=LAB
+From: NetBanking <secure@xn--hdfcbnk-4wa.com>
+To: Rohan Mehta <user6@lab-corp.example>
+Subject: Unusual sign-in to your NetBanking
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <f9acaa6c3206e248@xn--hdfcbnk-4wa.com>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+We noticed an unusual sign-in. Review it: https://xn--hdfcbnk-4wa.com/review

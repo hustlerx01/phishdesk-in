@@ -1,0 +1,34 @@
+Return-Path: <bounce@axisbank-alerts.click>
+Received: from mail.axisbank-alerts.click (198.51.100.224) by
+ mx.lab-corp.example with ESMTPS; Sat, 10 Oct 2026 05:22:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=pass
+ smtp.mailfrom=axisbank-alerts.click; dkim=none
+ header.d=axisbank-alerts.click; dmarc=none header.from=axisbank-alerts.click
+From: SBI Alerts <alerts@axisbank-alerts.click>
+To: Imran Khan <user37@lab-corp.example>
+Subject: Your SBI account will be blocked - KYC pending
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <8f5ea62f43d2def2@axisbank-alerts.click>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============5375270654777870840=="
+
+--===============5375270654777870840==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Sneha Kulkarni,
+Your KYC is pending and your account will be blocked within 24 hours. Update =
+KYC now: https://axisbank-alerts.click/kyc/login?id=3D7f8ac
+Aapka account band ho jayega.
+
+--===============5375270654777870840==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Dear customer, update KYC: <a href=3D"https://axisbank-alerts.click/kyc/lo=
+gin?id=3D7f8ac">https://www.onlinesbi.sbi/kyc</a></p>
+
+--===============5375270654777870840==--

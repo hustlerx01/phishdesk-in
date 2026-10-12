@@ -1,0 +1,32 @@
+Return-Path: <bounce@lab-corp.example>
+Received: from mail.lab-corp.example (203.0.113.164) by mx.lab-corp.example
+ with ESMTPS; Sat, 10 Oct 2026 01:18:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=pass
+ smtp.mailfrom=lab-corp.example; dkim=pass header.d=lab-corp.example;
+ dmarc=pass header.from=lab-corp.example
+DKIM-Signature:
+ v=1; a=rsa-sha256; d=lab-corp.example; s=sel1; h=from:subject; bh=LAB; b=LAB
+From: Sneha Kulkarni <it@lab-corp.example>
+To: Priya Nair <user60@lab-corp.example>
+Subject: Q3 report v1
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <87e0c9ede89a1c0f@lab-corp.example>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============5816497446257569881=="
+
+--===============5816497446257569881==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Report attached, please review by Monday.
+
+--===============5816497446257569881==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Q3_report_v1.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQgTEFC
+
+--===============5816497446257569881==--

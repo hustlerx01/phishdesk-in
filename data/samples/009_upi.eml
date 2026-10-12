@@ -1,0 +1,21 @@
+Return-Path: <bounce@paytrn.in>
+Received: from mail.paytrn.in (203.0.113.216) by mx.lab-corp.example with
+ ESMTPS; Sat, 10 Oct 2026 19:26:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=pass smtp.mailfrom=paytrn.in;
+ dkim=pass header.d=paytrn.in; dmarc=none header.from=paytrn.in
+DKIM-Signature:
+ v=1; a=rsa-sha256; d=paytrn.in; s=sel1; h=from:subject; bh=LAB; b=LAB
+From: Cashback Team <noreply@paytrn.in>
+To: Neha Joshi <user44@lab-corp.example>
+Subject: Rs 78,566 cashback credited - approve to receive
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <9de5bf24e961174e@paytrn.in>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Congratulations! You won cashback. To receive the money, approve the collect =
+request from refund33@ybl and enter UPI PIN.
+Pay link: upi://pay?pa=3Drefund33@ybl&pn=3DRefund&am=3D2999
+Claim before it expires: https://paytrn.in/claim

@@ -1,0 +1,19 @@
+Return-Path: <bounce@lncometax-refund.top>
+Received: from mail.lncometax-refund.top (198.51.100.215) by
+ mx.lab-corp.example with ESMTPS; Sat, 10 Oct 2026 14:37:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=softfail
+ smtp.mailfrom=lncometax-refund.top; dkim=none header.d=lncometax-refund.top;
+ dmarc=none header.from=lncometax-refund.top
+From: Income Tax Department <refund@lncometax-refund.top>
+To: Fatima Shaikh <user98@lab-corp.example>
+Reply-To: itrefund8@gmail.com
+Subject: Income Tax Refund of Rs 2,654 approved
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <5bea92b981bf2756@lncometax-refund.top>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Your Income Tax refund of Rs 77,907 is approved. Verify your PAN and bank det=
+ails to receive the refund: http://lncometax-refund.top/refund

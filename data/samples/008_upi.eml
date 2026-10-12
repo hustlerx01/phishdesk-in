@@ -1,0 +1,22 @@
+Return-Path: <bounce@phonepe-rewards.top>
+Received: from mail.phonepe-rewards.top (203.0.113.82) by mx.lab-corp.example
+ with ESMTPS; Sat, 10 Oct 2026 16:32:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=pass
+ smtp.mailfrom=phonepe-rewards.top; dkim=pass header.d=phonepe-rewards.top;
+ dmarc=none header.from=phonepe-rewards.top
+DKIM-Signature: v=1; a=rsa-sha256; d=phonepe-rewards.top; s=sel1;
+ h=from:subject; bh=LAB; b=LAB
+From: Cashback Team <noreply@phonepe-rewards.top>
+To: Arjun Reddy <user35@lab-corp.example>
+Subject: Rs 62,176 cashback credited - approve to receive
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <f9c02fb9b0b0b009@phonepe-rewards.top>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Congratulations! You won cashback. To receive the money, approve the collect =
+request from refund54@ybl and enter UPI PIN.
+Pay link: upi://pay?pa=3Drefund54@ybl&pn=3DRefund&am=3D4999
+Claim before it expires: https://phonepe-rewards.top/claim

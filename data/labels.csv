@@ -1,0 +1,70 @@
+file,label,category,note
+001_kyc.eml,phishing,kyc_lure,lookalike sbi-kyc-update.top
+002_kyc.eml,phishing,kyc_lure,lookalike onlinesbi-verify.xyz
+003_kyc.eml,phishing,kyc_lure,lookalike sbl-netbanking.online
+004_kyc.eml,phishing,kyc_lure,lookalike hdfcbank-kyc.site
+005_kyc.eml,phishing,kyc_lure,lookalike icicbank.info
+006_kyc.eml,phishing,kyc_lure,lookalike axisbank-alerts.click
+007_upi.eml,phishing,upi_lure,UPI collect/PIN lure paytm-cashback.xyz
+008_upi.eml,phishing,upi_lure,UPI collect/PIN lure phonepe-rewards.top
+009_upi.eml,phishing,upi_lure,UPI collect/PIN lure paytrn.in
+010_upi.eml,phishing,upi_lure,UPI collect/PIN lure bhim-upi-refund.site
+011_upi.eml,phishing,upi_lure,UPI collect/PIN lure gpay-offers.live
+012_tax.eml,phishing,tax_lure,IT refund lure lncometax-refund.top
+013_tax.eml,phishing,tax_lure,IT refund lure incometax-gov.info
+014_tax.eml,phishing,tax_lure,IT refund lure itr-refund-portal.xyz
+015_tax.eml,phishing,tax_lure,IT refund lure incometaxx.in
+016_bijli.eml,phishing,bill_lure,"electricity disconnection, freemail sender"
+017_bijli.eml,phishing,bill_lure,"electricity disconnection, freemail sender"
+018_bijli.eml,phishing,bill_lure,"electricity disconnection, freemail sender"
+019_bijli.eml,phishing,bill_lure,"electricity disconnection, freemail sender"
+020_courier.eml,phishing,courier_lure,courier fee + HTML attachment indiapost-redelivery.top
+021_courier.eml,phishing,courier_lure,courier fee + HTML attachment lndiapost.in
+022_courier.eml,phishing,courier_lure,courier fee + HTML attachment indiapost-track.cyou
+023_courier.eml,phishing,courier_lure,courier fee + HTML attachment parcel-customs-in.xyz
+024_malatt.eml,phishing,malware_attachment,risky attachment Invoice_Oct.pdf.exe
+025_malatt.eml,phishing,malware_attachment,risky attachment Salary_Slip.pdf.scr
+026_malatt.eml,phishing,malware_attachment,risky attachment PO_45781.docm
+027_arrest.eml,phishing,digital_arrest,digital arrest impersonation
+028_arrest.eml,phishing,digital_arrest,digital arrest impersonation
+029_idn.eml,phishing,idn_homograph,punycode xn--sb-ihp.com
+030_idn.eml,phishing,idn_homograph,punycode xn--hdfcbnk-4wa.com
+031_bec.eml,phishing,hard_compromised_account,"HARD: compromised real account sharma-traders.example, DMARC pass, shortener"
+032_bec.eml,phishing,hard_compromised_account,"HARD: compromised real account pune-dental.example, DMARC pass, shortener"
+033_bec.eml,phishing,hard_compromised_account,"HARD: compromised real account greenleaf-ngo.example, DMARC pass, shortener"
+034_bec.eml,phishing,hard_compromised_account,"HARD: compromised real account techfab-pvt.example, DMARC pass, shortener"
+035_qr.eml,phishing,hard_quishing,"HARD: QR image only, no text URL"
+036_qr.eml,phishing,hard_quishing,"HARD: QR image only, no text URL"
+037_txn.eml,legit,bank_txn_alert,real bank alert with safety advice
+038_txn.eml,legit,bank_txn_alert,real bank alert with safety advice
+039_txn.eml,legit,bank_txn_alert,real bank alert with safety advice
+040_txn.eml,legit,bank_txn_alert,real bank alert with safety advice
+041_txn.eml,legit,bank_txn_alert,real bank alert with safety advice
+042_txn.eml,legit,bank_txn_alert,real bank alert with safety advice
+043_txn.eml,legit,bank_txn_alert,real bank alert with safety advice
+044_txn.eml,legit,bank_txn_alert,real bank alert with safety advice
+045_kycok.eml,legit,bank_kyc_reminder,"legit periodic KYC reminder, aligned DMARC"
+046_kycok.eml,legit,bank_kyc_reminder,"legit periodic KYC reminder, aligned DMARC"
+047_kycok.eml,legit,bank_kyc_reminder,"legit periodic KYC reminder, aligned DMARC"
+048_kycok.eml,legit,bank_kyc_reminder,"legit periodic KYC reminder, aligned DMARC"
+049_mkt.eml,legit,marketing,marketing with shortened tracking link
+050_mkt.eml,legit,marketing,marketing with shortened tracking link
+051_mkt.eml,legit,marketing,marketing with shortened tracking link
+052_mkt.eml,legit,marketing,marketing with shortened tracking link
+053_mkt.eml,legit,marketing,marketing with shortened tracking link
+054_internal.eml,legit,internal,internal mail
+055_internal.eml,legit,internal,internal mail
+056_internal.eml,legit,internal,internal mail
+057_internal.eml,legit,internal,internal mail
+058_internal.eml,legit,internal,internal mail
+059_internal.eml,legit,internal,internal mail
+060_itd.eml,legit,gov_notice,real IT dept refund notice
+061_itd.eml,legit,gov_notice,real IT dept refund notice
+062_amzn.eml,legit,ecommerce,reward points reminder from real Amazon
+063_shop.eml,legit,ecommerce,small D2C brand on .shop TLD
+064_list.eml,legit,hard_mailing_list,"HARD: forwarded via mailing list, DMARC fails"
+065_list.eml,legit,hard_mailing_list,"HARD: forwarded via mailing list, DMARC fails"
+066_list.eml,legit,hard_mailing_list,"HARD: forwarded via mailing list, DMARC fails"
+067_vendor.eml,legit,vendor,"known vendor invoice, PDF"
+068_vendor.eml,legit,vendor,"known vendor invoice, PDF"
+069_vendor.eml,legit,vendor,"known vendor invoice, PDF"

@@ -1,0 +1,21 @@
+Return-Path: <bounce@axisbank.com>
+Received: from mail.axisbank.com (198.51.100.90) by mx.lab-corp.example with
+ ESMTPS; Sat, 10 Oct 2026 13:37:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=pass
+ smtp.mailfrom=axisbank.com; dkim=pass header.d=axisbank.com; dmarc=pass
+ header.from=axisbank.com
+DKIM-Signature:
+ v=1; a=rsa-sha256; d=axisbank.com; s=sel1; h=from:subject; bh=LAB; b=LAB
+From: Axis Bank <alerts@axisbank.com>
+To: Fatima Shaikh <user41@lab-corp.example>
+Subject: Transaction alert: Rs 65,135 debited
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <1bd25b559af1db31@axisbank.com>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Dear Customer, Rs 90,189 has been debited from account XX5414 via UPI. If not=
+ done by you, call the number on the back of your card. Never share your OTP,=
+ UPI PIN or CVV with anyone.

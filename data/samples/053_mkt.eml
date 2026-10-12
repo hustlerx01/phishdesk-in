@@ -1,0 +1,20 @@
+Return-Path: <bounce@promo.swiggy.example>
+Received: from mail.promo.swiggy.example (198.51.100.73) by
+ mx.lab-corp.example with ESMTPS; Sat, 10 Oct 2026 16:00:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=pass
+ smtp.mailfrom=promo.swiggy.example; dkim=pass header.d=promo.swiggy.example;
+ dmarc=pass header.from=promo.swiggy.example
+DKIM-Signature: v=1; a=rsa-sha256; d=promo.swiggy.example; s=sel1;
+ h=from:subject; bh=LAB; b=LAB
+From: Offers <offers@promo.swiggy.example>
+To: Imran Khan <user98@lab-corp.example>
+Subject: Festive sale: up to 70% off
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <5a8a6f1348b96cd0@promo.swiggy.example>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Big festive sale is live. Shop now: http://bit.ly/225eb702 Unsubscribe: https=
+://promo.swiggy.example/unsub

@@ -1,0 +1,33 @@
+Return-Path: <bounce@parcel-customs-in.xyz>
+Received: from mail.parcel-customs-in.xyz (203.0.113.140) by
+ mx.lab-corp.example with ESMTPS; Sat, 10 Oct 2026 02:19:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=softfail
+ smtp.mailfrom=parcel-customs-in.xyz; dkim=none
+ header.d=parcel-customs-in.xyz; dmarc=none header.from=parcel-customs-in.xyz
+From: India Post <track@parcel-customs-in.xyz>
+To: Amit Verma <user35@lab-corp.example>
+Subject: Your parcel is held - pay redelivery fee
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <2e0260dbf4238041@parcel-customs-in.xyz>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============3856957380441106266=="
+
+--===============3856957380441106266==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Your parcel is held at the hub due to incomplete address. Pay Rs 25 redeliver=
+y fee within 24 hours at https://parcel-customs-in.xyz/pay or open the attach=
+ed form.
+
+--===============3856957380441106266==
+Content-Type: text/html
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Redelivery_Form.html"
+MIME-Version: 1.0
+
+PGZvcm0gYWN0aW9uPSdodHRwczovL3BhcmNlbC1jdXN0b21zLWluLnh5ei9wYXknPkxBQjwvZm9y
+bT4=
+
+--===============3856957380441106266==--

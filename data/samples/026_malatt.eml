@@ -1,0 +1,31 @@
+Return-Path: <bounce@payroll-hr.buzz>
+Received: from mail.payroll-hr.buzz (198.51.100.199) by mx.lab-corp.example
+ with ESMTPS; Sat, 10 Oct 2026 07:01:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=fail
+ smtp.mailfrom=payroll-hr.buzz; dkim=none header.d=payroll-hr.buzz; dmarc=none
+ header.from=payroll-hr.buzz
+From: Accounts <accounts@payroll-hr.buzz>
+To: Imran Khan <user43@lab-corp.example>
+Subject: Pending payment - invoice attached
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <a26b31b172445259@payroll-hr.buzz>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============0545198181100374566=="
+
+--===============0545198181100374566==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Dear Sir/Madam,
+Please find attached invoice. Kindly process urgent payment today itself.
+
+--===============0545198181100374566==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="PO_45781.docm"
+MIME-Version: 1.0
+
+TEFCLURVTU1ZLU5PVC1NQUxXQVJFLVBPXzQ1NzgxLmRvY20=
+
+--===============0545198181100374566==--

@@ -1,0 +1,21 @@
+Return-Path: <bounce@icicibank.com>
+Received: from mail.icicibank.com (198.51.100.174) by mx.lab-corp.example with
+ ESMTPS; Sat, 10 Oct 2026 19:24:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=pass
+ smtp.mailfrom=icicibank.com; dkim=pass header.d=icicibank.com; dmarc=pass
+ header.from=icicibank.com
+DKIM-Signature:
+ v=1; a=rsa-sha256; d=icicibank.com; s=sel1; h=from:subject; bh=LAB; b=LAB
+From: ICICI Bank <service@icicibank.com>
+To: Imran Khan <user30@lab-corp.example>
+Subject: Periodic KYC update reminder
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <42b434d768b68355@icicibank.com>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Dear Customer, as per RBI guidelines your periodic KYC update is pending. Ple=
+ase visit your home branch or update via the official app/website https://www=
+.icicibank.com/. We do not ask for passwords or OTP over email.

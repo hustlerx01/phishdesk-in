@@ -1,0 +1,34 @@
+Return-Path: <bounce@onlinesbi-verify.xyz>
+Received: from mail.onlinesbi-verify.xyz (192.0.2.122) by mx.lab-corp.example
+ with ESMTPS; Sat, 10 Oct 2026 00:00:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=pass
+ smtp.mailfrom=onlinesbi-verify.xyz; dkim=none header.d=onlinesbi-verify.xyz;
+ dmarc=none header.from=onlinesbi-verify.xyz
+From: SBI Alerts <alerts@onlinesbi-verify.xyz>
+To: Sneha Kulkarni <user31@lab-corp.example>
+Subject: Your SBI account will be blocked - KYC pending
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <31e970c5268251c9@onlinesbi-verify.xyz>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============3641603982383516983=="
+
+--===============3641603982383516983==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Kavya Iyer,
+Your KYC is pending and your account will be blocked within 24 hours. Update =
+KYC now: https://onlinesbi-verify.xyz/kyc/login?id=3D3798a1
+Aapka account band ho jayega.
+
+--===============3641603982383516983==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Dear customer, update KYC: <a href=3D"https://onlinesbi-verify.xyz/kyc/log=
+in?id=3D3798a1">https://www.onlinesbi.sbi/kyc</a></p>
+
+--===============3641603982383516983==--

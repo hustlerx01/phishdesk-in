@@ -1,0 +1,21 @@
+Return-Path: <bounce@icicibank.com>
+Received: from mail.icicibank.com (203.0.113.207) by mx.lab-corp.example with
+ ESMTPS; Sat, 10 Oct 2026 12:08:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=pass
+ smtp.mailfrom=icicibank.com; dkim=pass header.d=icicibank.com; dmarc=pass
+ header.from=icicibank.com
+DKIM-Signature:
+ v=1; a=rsa-sha256; d=icicibank.com; s=sel1; h=from:subject; bh=LAB; b=LAB
+From: ICICI Bank <alerts@icicibank.com>
+To: Priya Nair <user57@lab-corp.example>
+Subject: Transaction alert: Rs 46,897 debited
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <5bcb7dac1828accc@icicibank.com>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Dear Customer, Rs 65,242 has been debited from account XX7536 via UPI. If not=
+ done by you, call the number on the back of your card. Never share your OTP,=
+ UPI PIN or CVV with anyone.

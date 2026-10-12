@@ -1,0 +1,20 @@
+Return-Path: <bounce@sbi.co.in>
+Received: from mail.sbi.co.in (192.0.2.72) by mx.lab-corp.example with ESMTPS;
+ Sat, 10 Oct 2026 09:24:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=pass smtp.mailfrom=sbi.co.in;
+ dkim=pass header.d=sbi.co.in; dmarc=pass header.from=sbi.co.in
+DKIM-Signature:
+ v=1; a=rsa-sha256; d=sbi.co.in; s=sel1; h=from:subject; bh=LAB; b=LAB
+From: SBI <alerts@sbi.co.in>
+To: Rahul Patil <user27@lab-corp.example>
+Subject: Transaction alert: Rs 95,227 debited
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <18acfaacc93bcf6a@sbi.co.in>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Dear Customer, Rs 10,469 has been debited from account XX3953 via UPI. If not=
+ done by you, call the number on the back of your card. Never share your OTP,=
+ UPI PIN or CVV with anyone.

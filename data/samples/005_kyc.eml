@@ -1,0 +1,34 @@
+Return-Path: <bounce@icicbank.info>
+Received: from mail.icicbank.info (198.51.100.120) by mx.lab-corp.example with
+ ESMTPS; Sat, 10 Oct 2026 07:51:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=softfail
+ smtp.mailfrom=icicbank.info; dkim=none header.d=icicbank.info; dmarc=fail
+ header.from=icicbank.info
+From: ICICI Bank Alerts <alerts@icicbank.info>
+To: Sneha Kulkarni <user7@lab-corp.example>
+Subject: Your ICICI Bank account will be blocked - KYC pending
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <8a5a8a3f1e0f0b53@icicbank.info>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============0868196408185819179=="
+
+--===============0868196408185819179==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Fatima Shaikh,
+Your KYC is pending and your account will be blocked within 24 hours. Update =
+KYC now: https://icicbank.info/kyc/login?id=3D578dfa
+Aapka account band ho jayega.
+
+--===============0868196408185819179==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Dear customer, update KYC: <a href=3D"https://icicbank.info/kyc/login?id=
+=3D578dfa">https://www.onlinesbi.sbi/kyc</a></p>
+
+--===============0868196408185819179==--

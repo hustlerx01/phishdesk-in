@@ -1,0 +1,19 @@
+Return-Path: <bounce@incometax-gov.info>
+Received: from mail.incometax-gov.info (203.0.113.71) by mx.lab-corp.example
+ with ESMTPS; Sat, 10 Oct 2026 01:42:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=none
+ smtp.mailfrom=incometax-gov.info; dkim=none header.d=incometax-gov.info;
+ dmarc=none header.from=incometax-gov.info
+From: Income Tax Department <refund@incometax-gov.info>
+To: Neha Joshi <user79@lab-corp.example>
+Reply-To: itrefund6@gmail.com
+Subject: Income Tax Refund of Rs 28,204 approved
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <f0aad3b0ba6d9bf6@incometax-gov.info>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Your Income Tax refund of Rs 68,622 is approved. Verify your PAN and bank det=
+ails to receive the refund: http://incometax-gov.info/refund

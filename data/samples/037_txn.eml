@@ -1,0 +1,21 @@
+Return-Path: <bounce@hdfcbank.com>
+Received: from mail.hdfcbank.com (198.51.100.213) by mx.lab-corp.example with
+ ESMTPS; Sat, 10 Oct 2026 00:09:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=pass
+ smtp.mailfrom=hdfcbank.com; dkim=pass header.d=hdfcbank.com; dmarc=pass
+ header.from=hdfcbank.com
+DKIM-Signature:
+ v=1; a=rsa-sha256; d=hdfcbank.com; s=sel1; h=from:subject; bh=LAB; b=LAB
+From: HDFC Bank <alerts@hdfcbank.com>
+To: Amit Verma <user49@lab-corp.example>
+Subject: Transaction alert: Rs 33,491 debited
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <8f40b1d99a7a4525@hdfcbank.com>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Dear Customer, Rs 7,935 has been debited from account XX4009 via UPI. If not =
+done by you, call the number on the back of your card. Never share your OTP, =
+UPI PIN or CVV with anyone.

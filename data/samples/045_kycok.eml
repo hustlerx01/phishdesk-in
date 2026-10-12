@@ -1,0 +1,21 @@
+Return-Path: <bounce@hdfcbank.com>
+Received: from mail.hdfcbank.com (192.0.2.116) by mx.lab-corp.example with
+ ESMTPS; Sat, 10 Oct 2026 19:09:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=pass
+ smtp.mailfrom=hdfcbank.com; dkim=pass header.d=hdfcbank.com; dmarc=pass
+ header.from=hdfcbank.com
+DKIM-Signature:
+ v=1; a=rsa-sha256; d=hdfcbank.com; s=sel1; h=from:subject; bh=LAB; b=LAB
+From: HDFC Bank <service@hdfcbank.com>
+To: Neha Joshi <user49@lab-corp.example>
+Subject: Periodic KYC update reminder
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <eee041de443306fa@hdfcbank.com>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Dear Customer, as per RBI guidelines your periodic KYC update is pending. Ple=
+ase visit your home branch or update via the official app/website https://www=
+.hdfcbank.com/. We do not ask for passwords or OTP over email.

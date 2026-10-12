@@ -1,0 +1,19 @@
+Return-Path: <bounce@xn--sb-ihp.com>
+Received: from mail.xn--sb-ihp.com (203.0.113.72) by mx.lab-corp.example with
+ ESMTPS; Sat, 10 Oct 2026 13:44:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=pass
+ smtp.mailfrom=xn--sb-ihp.com; dkim=pass header.d=xn--sb-ihp.com; dmarc=pass
+ header.from=xn--sb-ihp.com
+DKIM-Signature:
+ v=1; a=rsa-sha256; d=xn--sb-ihp.com; s=sel1; h=from:subject; bh=LAB; b=LAB
+From: NetBanking <secure@xn--sb-ihp.com>
+To: Arjun Reddy <user41@lab-corp.example>
+Subject: Unusual sign-in to your NetBanking
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <77d0aa92a67e1bd1@xn--sb-ihp.com>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+We noticed an unusual sign-in. Review it: https://xn--sb-ihp.com/review

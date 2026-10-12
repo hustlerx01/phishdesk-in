@@ -1,0 +1,19 @@
+Return-Path: <bounce@incometaxx.in>
+Received: from mail.incometaxx.in (203.0.113.92) by mx.lab-corp.example with
+ ESMTPS; Sat, 10 Oct 2026 18:36:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=none
+ smtp.mailfrom=incometaxx.in; dkim=none header.d=incometaxx.in; dmarc=none
+ header.from=incometaxx.in
+From: Income Tax Department <refund@incometaxx.in>
+To: Fatima Shaikh <user54@lab-corp.example>
+Reply-To: itrefund1@gmail.com
+Subject: Income Tax Refund of Rs 4,847 approved
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <b4a3ac54e0023de2@incometaxx.in>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Your Income Tax refund of Rs 40,435 is approved. Verify your PAN and bank det=
+ails to receive the refund: http://incometaxx.in/refund

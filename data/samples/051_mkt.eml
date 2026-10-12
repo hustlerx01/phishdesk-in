@@ -1,0 +1,20 @@
+Return-Path: <bounce@offers.myntra.example>
+Received: from mail.offers.myntra.example (192.0.2.232) by mx.lab-corp.example
+ with ESMTPS; Sat, 10 Oct 2026 01:05:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=pass
+ smtp.mailfrom=offers.myntra.example; dkim=pass
+ header.d=offers.myntra.example; dmarc=pass header.from=offers.myntra.example
+DKIM-Signature: v=1; a=rsa-sha256; d=offers.myntra.example; s=sel1;
+ h=from:subject; bh=LAB; b=LAB
+From: Offers <offers@offers.myntra.example>
+To: Imran Khan <user46@lab-corp.example>
+Subject: Festive sale: up to 70% off
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <256a7f31561ed36a@offers.myntra.example>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Big festive sale is live. Shop now: http://bit.ly/1b20b6c0 Unsubscribe: https=
+://offers.myntra.example/unsub

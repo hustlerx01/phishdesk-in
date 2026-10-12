@@ -1,0 +1,22 @@
+Return-Path: <bounce@techfab-pvt.example>
+Received: from mail.techfab-pvt.example (198.51.100.242) by
+ mx.lab-corp.example with ESMTPS; Sat, 10 Oct 2026 20:01:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=pass
+ smtp.mailfrom=techfab-pvt.example; dkim=pass header.d=techfab-pvt.example;
+ dmarc=pass header.from=techfab-pvt.example
+DKIM-Signature: v=1; a=rsa-sha256; d=techfab-pvt.example; s=sel1;
+ h=from:subject; bh=LAB; b=LAB
+From: Fatima Shaikh <accounts@techfab-pvt.example>
+To: Amit Verma <user41@lab-corp.example>
+Subject: Shared document: Q3 payment details
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <9b3df23b8259624b@techfab-pvt.example>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hi,
+I have shared the Q3 payment details with you. View document: https://bit.ly/=
+25605270
+Regards

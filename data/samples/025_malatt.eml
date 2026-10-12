@@ -1,0 +1,31 @@
+Return-Path: <bounce@tenders-gov.online>
+Received: from mail.tenders-gov.online (203.0.113.86) by mx.lab-corp.example
+ with ESMTPS; Sat, 10 Oct 2026 06:05:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=fail
+ smtp.mailfrom=tenders-gov.online; dkim=none header.d=tenders-gov.online;
+ dmarc=none header.from=tenders-gov.online
+From: Accounts <accounts@tenders-gov.online>
+To: Rahul Patil <user36@lab-corp.example>
+Subject: Pending payment - invoice attached
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <30ac8aad36718475@tenders-gov.online>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============5082513832886728665=="
+
+--===============5082513832886728665==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Dear Sir/Madam,
+Please find attached invoice. Kindly process urgent payment today itself.
+
+--===============5082513832886728665==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Salary_Slip.pdf.scr"
+MIME-Version: 1.0
+
+TEFCLURVTU1ZLU5PVC1NQUxXQVJFLVNhbGFyeV9TbGlwLnBkZi5zY3I=
+
+--===============5082513832886728665==--

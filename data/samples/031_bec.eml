@@ -1,0 +1,23 @@
+Return-Path: <bounce@sharma-traders.example>
+Received: from mail.sharma-traders.example (198.51.100.214) by
+ mx.lab-corp.example with ESMTPS; Sat, 10 Oct 2026 12:09:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=pass
+ smtp.mailfrom=sharma-traders.example; dkim=pass
+ header.d=sharma-traders.example; dmarc=pass
+ header.from=sharma-traders.example
+DKIM-Signature: v=1; a=rsa-sha256; d=sharma-traders.example; s=sel1;
+ h=from:subject; bh=LAB; b=LAB
+From: Neha Joshi <accounts@sharma-traders.example>
+To: Amit Verma <user78@lab-corp.example>
+Subject: Shared document: Q3 payment details
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <d3cc0fbbed77592@sharma-traders.example>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hi,
+I have shared the Q3 payment details with you. View document: https://bit.ly/=
+339afe8c
+Regards

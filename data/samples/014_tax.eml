@@ -1,0 +1,19 @@
+Return-Path: <bounce@itr-refund-portal.xyz>
+Received: from mail.itr-refund-portal.xyz (192.0.2.243) by mx.lab-corp.example
+ with ESMTPS; Sat, 10 Oct 2026 06:42:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=none
+ smtp.mailfrom=itr-refund-portal.xyz; dkim=none
+ header.d=itr-refund-portal.xyz; dmarc=none header.from=itr-refund-portal.xyz
+From: Income Tax Department <refund@itr-refund-portal.xyz>
+To: Rahul Patil <user64@lab-corp.example>
+Reply-To: itrefund5@gmail.com
+Subject: Income Tax Refund of Rs 27,418 approved
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <5e51a335e06adbb8@itr-refund-portal.xyz>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Your Income Tax refund of Rs 94,999 is approved. Verify your PAN and bank det=
+ails to receive the refund: http://itr-refund-portal.xyz/refund

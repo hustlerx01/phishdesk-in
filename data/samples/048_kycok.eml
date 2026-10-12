@@ -1,0 +1,20 @@
+Return-Path: <bounce@sbi.co.in>
+Received: from mail.sbi.co.in (198.51.100.191) by mx.lab-corp.example with
+ ESMTPS; Sat, 10 Oct 2026 18:58:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=pass smtp.mailfrom=sbi.co.in;
+ dkim=pass header.d=sbi.co.in; dmarc=pass header.from=sbi.co.in
+DKIM-Signature:
+ v=1; a=rsa-sha256; d=sbi.co.in; s=sel1; h=from:subject; bh=LAB; b=LAB
+From: SBI <service@sbi.co.in>
+To: Amit Verma <user52@lab-corp.example>
+Subject: Periodic KYC update reminder
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <34f1b77489131859@sbi.co.in>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Dear Customer, as per RBI guidelines your periodic KYC update is pending. Ple=
+ase visit your home branch or update via the official app/website https://www=
+.sbi.co.in/. We do not ask for passwords or OTP over email.

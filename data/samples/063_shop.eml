@@ -1,0 +1,19 @@
+Return-Path: <bounce@chaico.shop>
+Received: from mail.chaico.shop (203.0.113.168) by mx.lab-corp.example with
+ ESMTPS; Sat, 10 Oct 2026 11:56:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=pass
+ smtp.mailfrom=chaico.shop; dkim=pass header.d=chaico.shop; dmarc=pass
+ header.from=chaico.shop
+DKIM-Signature:
+ v=1; a=rsa-sha256; d=chaico.shop; s=sel1; h=from:subject; bh=LAB; b=LAB
+From: Chai Co <hello@chaico.shop>
+To: Arjun Reddy <user21@lab-corp.example>
+Subject: Last chance: Diwali hampers
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <c7568447990dfcc5@chaico.shop>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Last chance to order Diwali hampers: https://chaico.shop/diwali

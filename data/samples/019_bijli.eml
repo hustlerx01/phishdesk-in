@@ -1,0 +1,20 @@
+Return-Path: <bounce@gmail.com>
+Received: from mail.gmail.com (198.51.100.87) by mx.lab-corp.example with
+ ESMTPS; Sat, 10 Oct 2026 10:10:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=pass smtp.mailfrom=gmail.com;
+ dkim=pass header.d=gmail.com; dmarc=none header.from=gmail.com
+DKIM-Signature:
+ v=1; a=rsa-sha256; d=gmail.com; s=sel1; h=from:subject; bh=LAB; b=LAB
+From: MSEDCL Bijli Vibhag <bijli.office3@gmail.com>
+To: Priya Nair <user58@lab-corp.example>
+Subject: Electricity connection will be disconnected tonight
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <2257be716893145d@gmail.com>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Dear consumer, your electricity power will be disconnected tonight at 9.30 pm=
+ because previous month bill was not updated. Contact electricity officer imm=
+ediately on 9633626734. Install AnyDesk for bill verification.

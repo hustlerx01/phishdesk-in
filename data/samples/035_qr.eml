@@ -1,0 +1,33 @@
+Return-Path: <bounce@hr-portal-update.example>
+Received: from mail.hr-portal-update.example (192.0.2.125) by
+ mx.lab-corp.example with ESMTPS; Sat, 10 Oct 2026 00:40:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=pass
+ smtp.mailfrom=hr-portal-update.example; dkim=pass
+ header.d=hr-portal-update.example; dmarc=pass
+ header.from=hr-portal-update.example
+DKIM-Signature: v=1; a=rsa-sha256; d=hr-portal-update.example; s=sel1;
+ h=from:subject; bh=LAB; b=LAB
+From: HR Desk <hr@hr-portal-update.example>
+To: Sneha Kulkarni <user59@lab-corp.example>
+Subject: Action required: annual benefits enrolment
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <39aee0f7c0163f9@hr-portal-update.example>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============5215389816265151663=="
+
+--===============5215389816265151663==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Scan the attached code with your phone to complete enrolment.
+
+--===============5215389816265151663==
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="enrol.png"
+MIME-Version: 1.0
+
+iVBORw0KGgpMQUItUVItUExBQ0VIT0xERVI=
+
+--===============5215389816265151663==--

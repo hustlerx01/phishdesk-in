@@ -1,0 +1,21 @@
+Return-Path: <bounce@incometax.gov.in>
+Received: from mail.incometax.gov.in (198.51.100.160) by mx.lab-corp.example
+ with ESMTPS; Sat, 10 Oct 2026 16:10:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=pass
+ smtp.mailfrom=incometax.gov.in; dkim=pass header.d=incometax.gov.in;
+ dmarc=pass header.from=incometax.gov.in
+DKIM-Signature:
+ v=1; a=rsa-sha256; d=incometax.gov.in; s=sel1; h=from:subject; bh=LAB; b=LAB
+From: Income Tax Department <donotreply@incometax.gov.in>
+To: Amit Verma <user44@lab-corp.example>
+Subject: Intimation u/s 143(1): refund determined
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <529043c58d03f8b7@incometax.gov.in>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Your ITR for AY 2026-27 is processed and a refund of Rs 86,141 will be credit=
+ed to your pre-validated bank account. Login at https://www.incometax.gov.in =
+to view.

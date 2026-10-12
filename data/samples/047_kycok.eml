@@ -1,0 +1,21 @@
+Return-Path: <bounce@axisbank.com>
+Received: from mail.axisbank.com (203.0.113.134) by mx.lab-corp.example with
+ ESMTPS; Sat, 10 Oct 2026 12:53:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=pass
+ smtp.mailfrom=axisbank.com; dkim=pass header.d=axisbank.com; dmarc=pass
+ header.from=axisbank.com
+DKIM-Signature:
+ v=1; a=rsa-sha256; d=axisbank.com; s=sel1; h=from:subject; bh=LAB; b=LAB
+From: Axis Bank <service@axisbank.com>
+To: Priya Nair <user83@lab-corp.example>
+Subject: Periodic KYC update reminder
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <9e735fd9033cbe9d@axisbank.com>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Dear Customer, as per RBI guidelines your periodic KYC update is pending. Ple=
+ase visit your home branch or update via the official app/website https://www=
+.axisbank.com/. We do not ask for passwords or OTP over email.

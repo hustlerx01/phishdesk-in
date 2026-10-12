@@ -1,0 +1,20 @@
+Return-Path: <bounce@news.zomato.example>
+Received: from mail.news.zomato.example (198.51.100.116) by
+ mx.lab-corp.example with ESMTPS; Sat, 10 Oct 2026 19:53:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=pass
+ smtp.mailfrom=news.zomato.example; dkim=pass header.d=news.zomato.example;
+ dmarc=pass header.from=news.zomato.example
+DKIM-Signature: v=1; a=rsa-sha256; d=news.zomato.example; s=sel1;
+ h=from:subject; bh=LAB; b=LAB
+From: Offers <offers@news.zomato.example>
+To: Fatima Shaikh <user68@lab-corp.example>
+Subject: Festive sale: up to 70% off
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <413fe28d7f8a4731@news.zomato.example>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Big festive sale is live. Shop now: http://bit.ly/f91a353 Unsubscribe: https:=
+//news.zomato.example/unsub

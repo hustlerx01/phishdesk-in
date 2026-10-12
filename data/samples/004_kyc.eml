@@ -1,0 +1,34 @@
+Return-Path: <bounce@hdfcbank-kyc.site>
+Received: from mail.hdfcbank-kyc.site (203.0.113.29) by mx.lab-corp.example
+ with ESMTPS; Sat, 10 Oct 2026 22:10:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=fail
+ smtp.mailfrom=hdfcbank-kyc.site; dkim=none header.d=hdfcbank-kyc.site;
+ dmarc=none header.from=hdfcbank-kyc.site
+From: HDFC Bank Alerts <alerts@hdfcbank-kyc.site>
+To: Fatima Shaikh <user9@lab-corp.example>
+Subject: Your HDFC Bank account will be blocked - KYC pending
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <decb054cfc8adbb2@hdfcbank-kyc.site>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============7574918311415852851=="
+
+--===============7574918311415852851==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Sneha Kulkarni,
+Your KYC is pending and your account will be blocked within 24 hours. Update =
+KYC now: https://hdfcbank-kyc.site/kyc/login?id=3D4def10
+Aapka account band ho jayega.
+
+--===============7574918311415852851==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Dear customer, update KYC: <a href=3D"https://hdfcbank-kyc.site/kyc/login?=
+id=3D4def10">https://www.onlinesbi.sbi/kyc</a></p>
+
+--===============7574918311415852851==--

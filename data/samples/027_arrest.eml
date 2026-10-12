@@ -1,0 +1,19 @@
+Return-Path: <bounce@ncb-cyber.top>
+Received: from mail.ncb-cyber.top (198.51.100.219) by mx.lab-corp.example with
+ ESMTPS; Sat, 10 Oct 2026 19:34:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=none
+ smtp.mailfrom=ncb-cyber.top; dkim=none header.d=ncb-cyber.top; dmarc=none
+ header.from=ncb-cyber.top
+From: CBI Cyber Cell <officer@ncb-cyber.top>
+To: Rohan Mehta <user12@lab-corp.example>
+Subject: Notice: money laundering case registered against your Aadhaar
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <98800d20848681df@ncb-cyber.top>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Your Aadhaar is linked to a money laundering case. A warrant is issued. Join =
+video call for verification immediately or face digital arrest. Case file: ht=
+tps://ncb-cyber.top/case

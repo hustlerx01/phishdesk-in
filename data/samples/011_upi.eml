@@ -1,0 +1,22 @@
+Return-Path: <bounce@gpay-offers.live>
+Received: from mail.gpay-offers.live (198.51.100.192) by mx.lab-corp.example
+ with ESMTPS; Sat, 10 Oct 2026 06:28:00 +0530
+Authentication-Results: mx.lab-corp.example; spf=pass
+ smtp.mailfrom=gpay-offers.live; dkim=pass header.d=gpay-offers.live;
+ dmarc=none header.from=gpay-offers.live
+DKIM-Signature:
+ v=1; a=rsa-sha256; d=gpay-offers.live; s=sel1; h=from:subject; bh=LAB; b=LAB
+From: Cashback Team <noreply@gpay-offers.live>
+To: Imran Khan <user40@lab-corp.example>
+Subject: Rs 98,479 cashback credited - approve to receive
+Date: Sat, 10 Oct 2026 10:00:00 +0530
+Message-ID: <83a87d2ec03584a9@gpay-offers.live>
+X-Lab-Data: synthetic - PhishDesk-IN corpus - not real mail
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Congratulations! You won cashback. To receive the money, approve the collect =
+request from refund67@ybl and enter UPI PIN.
+Pay link: upi://pay?pa=3Drefund67@ybl&pn=3DRefund&am=3D1999
+Claim before it expires: https://gpay-offers.live/claim
