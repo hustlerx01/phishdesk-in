@@ -1,0 +1,77 @@
+{
+  "file": "007_upi.eml",
+  "subject": "Rs 28,757 cashback credited - approve to receive",
+  "from": "Cashback Team <noreply@paytm-cashback.xyz>",
+  "verdict": "phishing",
+  "score": 100,
+  "auth": {
+    "spf": "pass",
+    "dkim": "pass",
+    "dmarc": "none",
+    "dkim_domain": "paytm-cashback.xyz",
+    "spf_aligned": true,
+    "dkim_aligned": true,
+    "reply_to_mismatch": false
+  },
+  "urls": [
+    "upi://pay?pa=refund51@ybl&pn=Refund&am=7999",
+    "https://paytm-cashback.xyz/claim"
+  ],
+  "attachments": [],
+  "findings": [
+    {
+      "rule": "FROM_LOOKALIKE",
+      "weight": 35,
+      "why": "sender domain: brand 'paytm' embedded in unrelated domain (paytm-cashback.xyz)",
+      "category": "lookalike"
+    },
+    {
+      "rule": "LOOKALIKE_DOMAIN",
+      "weight": 35,
+      "why": "brand 'paytm' embedded in unrelated domain (paytm-cashback.xyz) [https://paytm-cashback.xyz/claim]",
+      "category": "url"
+    },
+    {
+      "rule": "IN_UPI_PIN",
+      "weight": 35,
+      "why": "asks to enter/share UPI PIN/OTP/CVV (NPCI: PIN is never needed to receive money)",
+      "category": "lure"
+    },
+    {
+      "rule": "UPI_DEEPLINK",
+      "weight": 25,
+      "why": "upi:// payment deep link inside an email (banks never ask you to pay to receive money) [upi://pay?pa=refund51@ybl&pn=Refund&am=7999]",
+      "category": "url"
+    },
+    {
+      "rule": "IN_UPI_RECEIVE",
+      "weight": 25,
+      "why": "'approve collect request to receive money' UPI lure",
+      "category": "lure"
+    },
+    {
+      "rule": "IN_REWARD",
+      "weight": 15,
+      "why": "reward/lottery lure",
+      "category": "lure"
+    },
+    {
+      "rule": "UPI_PAY_AMOUNT",
+      "weight": 10,
+      "why": "pre-filled UPI pay amount [upi://pay?pa=refund51@ybl&pn=Refund&am=7999]",
+      "category": "url"
+    },
+    {
+      "rule": "URL_RISKY_TLD",
+      "weight": 10,
+      "why": ".xyz TLD frequently abused for phishing [https://paytm-cashback.xyz/claim]",
+      "category": "url"
+    },
+    {
+      "rule": "IN_VPA_IN_BODY",
+      "weight": 10,
+      "why": "UPI VPA in body (refund51@ybl)",
+      "category": "lure"
+    }
+  ]
+}

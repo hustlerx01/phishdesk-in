@@ -1,0 +1,78 @@
+{
+  "file": "021_courier.eml",
+  "subject": "Your parcel is held - pay redelivery fee",
+  "from": "India Post <track@lndiapost.in>",
+  "verdict": "phishing",
+  "score": 100,
+  "auth": {
+    "spf": "softfail",
+    "dkim": "none",
+    "dmarc": "none",
+    "dkim_domain": "lndiapost.in",
+    "spf_aligned": true,
+    "dkim_aligned": true,
+    "reply_to_mismatch": false
+  },
+  "urls": [
+    "https://lndiapost.in/pay"
+  ],
+  "attachments": [
+    {
+      "filename": "Redelivery_Form.html",
+      "content_type": "text/html",
+      "size": 50,
+      "sha256": "b21a4dbe477e277ff941aa49519d6319bee6374f94ba1958543eb5c307f742f6",
+      "md5": "b703b3bbf03cd27cbf31e58d6c7bf8b7"
+    }
+  ],
+  "findings": [
+    {
+      "rule": "FROM_LOOKALIKE",
+      "weight": 35,
+      "why": "sender domain: typosquat of 'indiapost' (lndiapost, edit distance 1)",
+      "category": "lookalike"
+    },
+    {
+      "rule": "LOOKALIKE_DOMAIN",
+      "weight": 35,
+      "why": "typosquat of 'indiapost' (lndiapost, edit distance 1) [https://lndiapost.in/pay]",
+      "category": "url"
+    },
+    {
+      "rule": "ATT_RISKY_EXT",
+      "weight": 25,
+      "why": "risky attachment type Redelivery_Form.html",
+      "category": "attachment"
+    },
+    {
+      "rule": "DISPLAYNAME_SPOOF",
+      "weight": 20,
+      "why": "display name claims 'indiapost' but sender is lndiapost.in",
+      "category": "lookalike"
+    },
+    {
+      "rule": "SPF_FAIL",
+      "weight": 15,
+      "why": "SPF softfail",
+      "category": "auth"
+    },
+    {
+      "rule": "IN_COURIER_CUSTOMS",
+      "weight": 15,
+      "why": "parcel/customs fee lure",
+      "category": "lure"
+    },
+    {
+      "rule": "NO_AUTH",
+      "weight": 10,
+      "why": "no passing SPF/DKIM and no DMARC result",
+      "category": "auth"
+    },
+    {
+      "rule": "URGENCY",
+      "weight": 10,
+      "why": "generic urgency",
+      "category": "lure"
+    }
+  ]
+}

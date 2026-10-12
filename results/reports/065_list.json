@@ -1,0 +1,38 @@
+{
+  "file": "065_list.eml",
+  "subject": "[owasp-pune] Meetup 2 slides",
+  "from": "Rohan Mehta <member1@partner-uni.example>",
+  "verdict": "phishing",
+  "score": 55,
+  "auth": {
+    "spf": "fail",
+    "dkim": "fail",
+    "dmarc": "fail",
+    "dkim_domain": "partner-uni.example",
+    "spf_aligned": false,
+    "dkim_aligned": true,
+    "reply_to_mismatch": false
+  },
+  "urls": [],
+  "attachments": [],
+  "findings": [
+    {
+      "rule": "DMARC_FAIL",
+      "weight": 25,
+      "why": "DMARC fail: From domain not authenticated",
+      "category": "auth"
+    },
+    {
+      "rule": "SPF_FAIL",
+      "weight": 15,
+      "why": "SPF fail",
+      "category": "auth"
+    },
+    {
+      "rule": "DKIM_FAIL",
+      "weight": 15,
+      "why": "DKIM signature failed",
+      "category": "auth"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "file": "006_kyc.eml",
+  "subject": "Your SBI account will be blocked - KYC pending",
+  "from": "SBI Alerts <alerts@axisbank-alerts.click>",
+  "verdict": "phishing",
+  "score": 100,
+  "auth": {
+    "spf": "pass",
+    "dkim": "none",
+    "dmarc": "none",
+    "dkim_domain": "axisbank-alerts.click",
+    "spf_aligned": true,
+    "dkim_aligned": true,
+    "reply_to_mismatch": false
+  },
+  "urls": [
+    "https://axisbank-alerts.click/kyc/login?id=7f8ac",
+    "https://www.onlinesbi.sbi/kyc"
+  ],
+  "attachments": [],
+  "findings": [
+    {
+      "rule": "FROM_LOOKALIKE",
+      "weight": 35,
+      "why": "sender domain: brand 'axisbank' embedded in unrelated domain (axisbank-alerts.click)",
+      "category": "lookalike"
+    },
+    {
+      "rule": "LOOKALIKE_DOMAIN",
+      "weight": 35,
+      "why": "brand 'axisbank' embedded in unrelated domain (axisbank-alerts.click) [https://axisbank-alerts.click/kyc/login?id=7f8ac]",
+      "category": "url"
+    },
+    {
+      "rule": "ANCHOR_MISMATCH",
+      "weight": 25,
+      "why": "link text shows www.onlinesbi.sbi but points to axisbank-alerts.click [https://axisbank-alerts.click/kyc/login?id=7f8ac]",
+      "category": "url"
+    },
+    {
+      "rule": "IN_KYC_BLOCK",
+      "weight": 25,
+      "why": "KYC-expiry / account-block lure (RBI BE(A)WARE: 'KYC update' fraud)",
+      "category": "lure"
+    },
+    {
+      "rule": "DISPLAYNAME_SPOOF",
+      "weight": 20,
+      "why": "display name claims 'sbi' but sender is axisbank-alerts.click",
+      "category": "lookalike"
+    },
+    {
+      "rule": "URL_RISKY_TLD",
+      "weight": 10,
+      "why": ".click TLD frequently abused for phishing [https://axisbank-alerts.click/kyc/login?id=7f8ac]",
+      "category": "url"
+    },
+    {
+      "rule": "IN_HINGLISH_URGENCY",
+      "weight": 10,
+      "why": "Hinglish urgency phrasing",
+      "category": "lure"
+    },
+    {
+      "rule": "URGENCY",
+      "weight": 10,
+      "why": "generic urgency",
+      "category": "lure"
+    },
+    {
+      "rule": "URL_CRED_KEYWORDS",
+      "weight": 5,
+      "why": "credential/KYC keywords in URL [https://axisbank-alerts.click/kyc/login?id=7f8ac]",
+      "category": "url"
+    }
+  ]
+}

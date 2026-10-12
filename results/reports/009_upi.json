@@ -1,0 +1,71 @@
+{
+  "file": "009_upi.eml",
+  "subject": "Rs 78,566 cashback credited - approve to receive",
+  "from": "Cashback Team <noreply@paytrn.in>",
+  "verdict": "phishing",
+  "score": 100,
+  "auth": {
+    "spf": "pass",
+    "dkim": "pass",
+    "dmarc": "none",
+    "dkim_domain": "paytrn.in",
+    "spf_aligned": true,
+    "dkim_aligned": true,
+    "reply_to_mismatch": false
+  },
+  "urls": [
+    "upi://pay?pa=refund33@ybl&pn=Refund&am=2999",
+    "https://paytrn.in/claim"
+  ],
+  "attachments": [],
+  "findings": [
+    {
+      "rule": "FROM_LOOKALIKE",
+      "weight": 35,
+      "why": "sender domain: homoglyph of 'paytm' (paytrn)",
+      "category": "lookalike"
+    },
+    {
+      "rule": "LOOKALIKE_DOMAIN",
+      "weight": 35,
+      "why": "homoglyph of 'paytm' (paytrn) [https://paytrn.in/claim]",
+      "category": "url"
+    },
+    {
+      "rule": "IN_UPI_PIN",
+      "weight": 35,
+      "why": "asks to enter/share UPI PIN/OTP/CVV (NPCI: PIN is never needed to receive money)",
+      "category": "lure"
+    },
+    {
+      "rule": "UPI_DEEPLINK",
+      "weight": 25,
+      "why": "upi:// payment deep link inside an email (banks never ask you to pay to receive money) [upi://pay?pa=refund33@ybl&pn=Refund&am=2999]",
+      "category": "url"
+    },
+    {
+      "rule": "IN_UPI_RECEIVE",
+      "weight": 25,
+      "why": "'approve collect request to receive money' UPI lure",
+      "category": "lure"
+    },
+    {
+      "rule": "IN_REWARD",
+      "weight": 15,
+      "why": "reward/lottery lure",
+      "category": "lure"
+    },
+    {
+      "rule": "UPI_PAY_AMOUNT",
+      "weight": 10,
+      "why": "pre-filled UPI pay amount [upi://pay?pa=refund33@ybl&pn=Refund&am=2999]",
+      "category": "url"
+    },
+    {
+      "rule": "IN_VPA_IN_BODY",
+      "weight": 10,
+      "why": "UPI VPA in body (refund33@ybl)",
+      "category": "lure"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "file": "005_kyc.eml",
+  "subject": "Your ICICI Bank account will be blocked - KYC pending",
+  "from": "ICICI Bank Alerts <alerts@icicbank.info>",
+  "verdict": "phishing",
+  "score": 100,
+  "auth": {
+    "spf": "softfail",
+    "dkim": "none",
+    "dmarc": "fail",
+    "dkim_domain": "icicbank.info",
+    "spf_aligned": true,
+    "dkim_aligned": true,
+    "reply_to_mismatch": false
+  },
+  "urls": [
+    "https://icicbank.info/kyc/login?id=578dfa",
+    "https://www.onlinesbi.sbi/kyc"
+  ],
+  "attachments": [],
+  "findings": [
+    {
+      "rule": "FROM_LOOKALIKE",
+      "weight": 35,
+      "why": "sender domain: typosquat of 'icicibank' (icicbank, edit distance 1)",
+      "category": "lookalike"
+    },
+    {
+      "rule": "LOOKALIKE_DOMAIN",
+      "weight": 35,
+      "why": "typosquat of 'icicibank' (icicbank, edit distance 1) [https://icicbank.info/kyc/login?id=578dfa]",
+      "category": "url"
+    },
+    {
+      "rule": "DMARC_FAIL",
+      "weight": 25,
+      "why": "DMARC fail: From domain not authenticated",
+      "category": "auth"
+    },
+    {
+      "rule": "ANCHOR_MISMATCH",
+      "weight": 25,
+      "why": "link text shows www.onlinesbi.sbi but points to icicbank.info [https://icicbank.info/kyc/login?id=578dfa]",
+      "category": "url"
+    },
+    {
+      "rule": "IN_KYC_BLOCK",
+      "weight": 25,
+      "why": "KYC-expiry / account-block lure (RBI BE(A)WARE: 'KYC update' fraud)",
+      "category": "lure"
+    },
+    {
+      "rule": "DISPLAYNAME_SPOOF",
+      "weight": 20,
+      "why": "display name claims 'icicibank' but sender is icicbank.info",
+      "category": "lookalike"
+    },
+    {
+      "rule": "SPF_FAIL",
+      "weight": 15,
+      "why": "SPF softfail",
+      "category": "auth"
+    },
+    {
+      "rule": "URL_RISKY_TLD",
+      "weight": 10,
+      "why": ".info TLD frequently abused for phishing [https://icicbank.info/kyc/login?id=578dfa]",
+      "category": "url"
+    },
+    {
+      "rule": "IN_HINGLISH_URGENCY",
+      "weight": 10,
+      "why": "Hinglish urgency phrasing",
+      "category": "lure"
+    },
+    {
+      "rule": "URGENCY",
+      "weight": 10,
+      "why": "generic urgency",
+      "category": "lure"
+    },
+    {
+      "rule": "URL_CRED_KEYWORDS",
+      "weight": 5,
+      "why": "credential/KYC keywords in URL [https://icicbank.info/kyc/login?id=578dfa]",
+      "category": "url"
+    }
+  ]
+}

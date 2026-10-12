@@ -1,0 +1,41 @@
+{
+  "file": "051_mkt.eml",
+  "subject": "Festive sale: up to 70% off",
+  "from": "Offers <offers@offers.myntra.example>",
+  "verdict": "clean",
+  "score": 5,
+  "auth": {
+    "spf": "pass",
+    "dkim": "pass",
+    "dmarc": "pass",
+    "dkim_domain": "offers.myntra.example",
+    "spf_aligned": true,
+    "dkim_aligned": true,
+    "reply_to_mismatch": false
+  },
+  "urls": [
+    "http://bit.ly/1b20b6c0",
+    "https://offers.myntra.example/unsub"
+  ],
+  "attachments": [],
+  "findings": [
+    {
+      "rule": "URL_SHORTENER",
+      "weight": 10,
+      "why": "URL shortener bit.ly hides destination [http://bit.ly/1b20b6c0]",
+      "category": "url"
+    },
+    {
+      "rule": "URL_NO_TLS",
+      "weight": 5,
+      "why": "plain http link [http://bit.ly/1b20b6c0]",
+      "category": "url"
+    },
+    {
+      "rule": "AUTH_ALIGNED_PASS",
+      "weight": -10,
+      "why": "DMARC pass with aligned identifier",
+      "category": "auth"
+    }
+  ]
+}

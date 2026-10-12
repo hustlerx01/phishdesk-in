@@ -1,0 +1,26 @@
+{
+  "file": "054_internal.eml",
+  "subject": "Team lunch on Friday",
+  "from": "Kavya Iyer <it@lab-corp.example>",
+  "verdict": "clean",
+  "score": 0,
+  "auth": {
+    "spf": "pass",
+    "dkim": "pass",
+    "dmarc": "pass",
+    "dkim_domain": "lab-corp.example",
+    "spf_aligned": true,
+    "dkim_aligned": true,
+    "reply_to_mismatch": false
+  },
+  "urls": [],
+  "attachments": [],
+  "findings": [
+    {
+      "rule": "AUTH_ALIGNED_PASS",
+      "weight": -10,
+      "why": "DMARC pass with aligned identifier",
+      "category": "auth"
+    }
+  ]
+}

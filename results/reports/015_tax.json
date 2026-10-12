@@ -1,0 +1,76 @@
+{
+  "file": "015_tax.eml",
+  "subject": "Income Tax Refund of Rs 4,847 approved",
+  "from": "Income Tax Department <refund@incometaxx.in>",
+  "verdict": "phishing",
+  "score": 100,
+  "auth": {
+    "spf": "none",
+    "dkim": "none",
+    "dmarc": "none",
+    "dkim_domain": "incometaxx.in",
+    "spf_aligned": true,
+    "dkim_aligned": true,
+    "reply_to_mismatch": true
+  },
+  "urls": [
+    "http://incometaxx.in/refund"
+  ],
+  "attachments": [],
+  "findings": [
+    {
+      "rule": "FROM_LOOKALIKE",
+      "weight": 35,
+      "why": "sender domain: typosquat of 'incometax' (incometaxx, edit distance 1)",
+      "category": "lookalike"
+    },
+    {
+      "rule": "LOOKALIKE_DOMAIN",
+      "weight": 35,
+      "why": "typosquat of 'incometax' (incometaxx, edit distance 1) [http://incometaxx.in/refund]",
+      "category": "url"
+    },
+    {
+      "rule": "IN_UPI_RECEIVE",
+      "weight": 25,
+      "why": "'approve collect request to receive money' UPI lure",
+      "category": "lure"
+    },
+    {
+      "rule": "DISPLAYNAME_SPOOF",
+      "weight": 20,
+      "why": "display name claims 'incometax' but sender is incometaxx.in",
+      "category": "lookalike"
+    },
+    {
+      "rule": "IN_TAX_REFUND",
+      "weight": 20,
+      "why": "income-tax refund lure",
+      "category": "lure"
+    },
+    {
+      "rule": "REPLYTO_MISMATCH",
+      "weight": 15,
+      "why": "Reply-To domain gmail.com differs from From incometaxx.in",
+      "category": "auth"
+    },
+    {
+      "rule": "NO_AUTH",
+      "weight": 10,
+      "why": "no passing SPF/DKIM and no DMARC result",
+      "category": "auth"
+    },
+    {
+      "rule": "URL_NO_TLS",
+      "weight": 5,
+      "why": "plain http link [http://incometaxx.in/refund]",
+      "category": "url"
+    },
+    {
+      "rule": "URL_CRED_KEYWORDS",
+      "weight": 5,
+      "why": "credential/KYC keywords in URL [http://incometaxx.in/refund]",
+      "category": "url"
+    }
+  ]
+}

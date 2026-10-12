@@ -1,0 +1,82 @@
+{
+  "file": "013_tax.eml",
+  "subject": "Income Tax Refund of Rs 28,204 approved",
+  "from": "Income Tax Department <refund@incometax-gov.info>",
+  "verdict": "phishing",
+  "score": 100,
+  "auth": {
+    "spf": "none",
+    "dkim": "none",
+    "dmarc": "none",
+    "dkim_domain": "incometax-gov.info",
+    "spf_aligned": true,
+    "dkim_aligned": true,
+    "reply_to_mismatch": true
+  },
+  "urls": [
+    "http://incometax-gov.info/refund"
+  ],
+  "attachments": [],
+  "findings": [
+    {
+      "rule": "FROM_LOOKALIKE",
+      "weight": 35,
+      "why": "sender domain: brand 'incometax' embedded in unrelated domain (incometax-gov.info)",
+      "category": "lookalike"
+    },
+    {
+      "rule": "LOOKALIKE_DOMAIN",
+      "weight": 35,
+      "why": "brand 'incometax' embedded in unrelated domain (incometax-gov.info) [http://incometax-gov.info/refund]",
+      "category": "url"
+    },
+    {
+      "rule": "IN_UPI_RECEIVE",
+      "weight": 25,
+      "why": "'approve collect request to receive money' UPI lure",
+      "category": "lure"
+    },
+    {
+      "rule": "DISPLAYNAME_SPOOF",
+      "weight": 20,
+      "why": "display name claims 'incometax' but sender is incometax-gov.info",
+      "category": "lookalike"
+    },
+    {
+      "rule": "IN_TAX_REFUND",
+      "weight": 20,
+      "why": "income-tax refund lure",
+      "category": "lure"
+    },
+    {
+      "rule": "REPLYTO_MISMATCH",
+      "weight": 15,
+      "why": "Reply-To domain gmail.com differs from From incometax-gov.info",
+      "category": "auth"
+    },
+    {
+      "rule": "NO_AUTH",
+      "weight": 10,
+      "why": "no passing SPF/DKIM and no DMARC result",
+      "category": "auth"
+    },
+    {
+      "rule": "URL_RISKY_TLD",
+      "weight": 10,
+      "why": ".info TLD frequently abused for phishing [http://incometax-gov.info/refund]",
+      "category": "url"
+    },
+    {
+      "rule": "URL_NO_TLS",
+      "weight": 5,
+      "why": "plain http link [http://incometax-gov.info/refund]",
+      "category": "url"
+    },
+    {
+      "rule": "URL_CRED_KEYWORDS",
+      "weight": 5,
+      "why": "credential/KYC keywords in URL [http://incometax-gov.info/refund]",
+      "category": "url"
+    }
+  ]
+}

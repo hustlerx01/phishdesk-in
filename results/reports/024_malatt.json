@@ -1,0 +1,58 @@
+{
+  "file": "024_malatt.eml",
+  "subject": "Pending payment - invoice attached",
+  "from": "Accounts <accounts@tenders-gov.online>",
+  "verdict": "phishing",
+  "score": 85,
+  "auth": {
+    "spf": "fail",
+    "dkim": "none",
+    "dmarc": "none",
+    "dkim_domain": "tenders-gov.online",
+    "spf_aligned": true,
+    "dkim_aligned": true,
+    "reply_to_mismatch": false
+  },
+  "urls": [],
+  "attachments": [
+    {
+      "filename": "Invoice_Oct.pdf.exe",
+      "content_type": "application/octet-stream",
+      "size": 41,
+      "sha256": "5786d4531abe075ab3bc270ef229fe5039296e21c8651f740e49fb59216eeb62",
+      "md5": "bf1390bef485d3078202352b4cc71454"
+    }
+  ],
+  "findings": [
+    {
+      "rule": "ATT_RISKY_EXT",
+      "weight": 25,
+      "why": "risky attachment type Invoice_Oct.pdf.exe",
+      "category": "attachment"
+    },
+    {
+      "rule": "ATT_DOUBLE_EXT",
+      "weight": 25,
+      "why": "double extension Invoice_Oct.pdf.exe",
+      "category": "attachment"
+    },
+    {
+      "rule": "SPF_FAIL",
+      "weight": 15,
+      "why": "SPF fail",
+      "category": "auth"
+    },
+    {
+      "rule": "NO_AUTH",
+      "weight": 10,
+      "why": "no passing SPF/DKIM and no DMARC result",
+      "category": "auth"
+    },
+    {
+      "rule": "URGENCY",
+      "weight": 10,
+      "why": "generic urgency",
+      "category": "lure"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "file": "048_kycok.eml",
+  "subject": "Periodic KYC update reminder",
+  "from": "SBI <service@sbi.co.in>",
+  "verdict": "clean",
+  "score": 5,
+  "auth": {
+    "spf": "pass",
+    "dkim": "pass",
+    "dmarc": "pass",
+    "dkim_domain": "sbi.co.in",
+    "spf_aligned": true,
+    "dkim_aligned": true,
+    "reply_to_mismatch": false
+  },
+  "urls": [
+    "https://www.sbi.co.in/"
+  ],
+  "attachments": [],
+  "findings": [
+    {
+      "rule": "IN_KYC_BLOCK",
+      "weight": 25,
+      "why": "KYC-expiry / account-block lure (RBI BE(A)WARE: 'KYC update' fraud)",
+      "category": "lure"
+    },
+    {
+      "rule": "AUTH_ALIGNED_PASS",
+      "weight": -20,
+      "why": "DMARC pass with aligned identifier",
+      "category": "auth"
+    }
+  ]
+}

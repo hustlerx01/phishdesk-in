@@ -1,0 +1,38 @@
+{
+  "file": "017_bijli.eml",
+  "subject": "Electricity connection will be disconnected tonight",
+  "from": "MSEDCL Bijli Vibhag <bijli.office1@gmail.com>",
+  "verdict": "phishing",
+  "score": 60,
+  "auth": {
+    "spf": "pass",
+    "dkim": "pass",
+    "dmarc": "none",
+    "dkim_domain": "gmail.com",
+    "spf_aligned": true,
+    "dkim_aligned": true,
+    "reply_to_mismatch": false
+  },
+  "urls": [],
+  "attachments": [],
+  "findings": [
+    {
+      "rule": "IN_REMOTE_APP",
+      "weight": 30,
+      "why": "asks to install remote-access app / APK",
+      "category": "lure"
+    },
+    {
+      "rule": "IN_BILL_DISCONNECT",
+      "weight": 20,
+      "why": "electricity disconnection lure",
+      "category": "lure"
+    },
+    {
+      "rule": "URGENCY",
+      "weight": 10,
+      "why": "generic urgency",
+      "category": "lure"
+    }
+  ]
+}

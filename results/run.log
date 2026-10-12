@@ -1,0 +1,69 @@
+phishing   100  001_kyc.eml  Your SBI account will be blocked - KYC pending
+phishing   100  002_kyc.eml  Your SBI account will be blocked - KYC pending
+phishing   100  003_kyc.eml  Your SBI account will be blocked - KYC pending
+phishing   100  004_kyc.eml  Your HDFC Bank account will be blocked - KYC pending
+phishing   100  005_kyc.eml  Your ICICI Bank account will be blocked - KYC pending
+phishing   100  006_kyc.eml  Your SBI account will be blocked - KYC pending
+phishing   100  007_upi.eml  Rs 28,757 cashback credited - approve to receive
+phishing   100  008_upi.eml  Rs 62,176 cashback credited - approve to receive
+phishing   100  009_upi.eml  Rs 78,566 cashback credited - approve to receive
+phishing   100  010_upi.eml  Rs 69,981 cashback credited - approve to receive
+phishing   100  011_upi.eml  Rs 98,479 cashback credited - approve to receive
+phishing   100  012_tax.eml  Income Tax Refund of Rs 2,654 approved
+phishing   100  013_tax.eml  Income Tax Refund of Rs 28,204 approved
+phishing   100  014_tax.eml  Income Tax Refund of Rs 27,418 approved
+phishing   100  015_tax.eml  Income Tax Refund of Rs 4,847 approved
+phishing    60  016_bijli.eml  Electricity connection will be disconnected tonight
+phishing    60  017_bijli.eml  Electricity connection will be disconnected tonight
+phishing    60  018_bijli.eml  Electricity connection will be disconnected tonight
+phishing    60  019_bijli.eml  Electricity connection will be disconnected tonight
+phishing   100  020_courier.eml  Your parcel is held - pay redelivery fee
+phishing   100  021_courier.eml  Your parcel is held - pay redelivery fee
+phishing   100  022_courier.eml  Your parcel is held - pay redelivery fee
+phishing   100  023_courier.eml  Your parcel is held - pay redelivery fee
+phishing    85  024_malatt.eml  Pending payment - invoice attached
+phishing    85  025_malatt.eml  Pending payment - invoice attached
+phishing    60  026_malatt.eml  Pending payment - invoice attached
+phishing    75  027_arrest.eml  Notice: money laundering case registered against your Aadhaa
+phishing    75  028_arrest.eml  Notice: money laundering case registered against your Aadhaa
+phishing    60  029_idn.eml  Unusual sign-in to your NetBanking
+phishing    60  030_idn.eml  Unusual sign-in to your NetBanking
+clean        0  031_bec.eml  Shared document: Q3 payment details
+clean        0  032_bec.eml  Shared document: Q3 payment details
+clean        0  033_bec.eml  Shared document: Q3 payment details
+clean        0  034_bec.eml  Shared document: Q3 payment details
+clean        0  035_qr.eml  Action required: annual benefits enrolment
+clean        0  036_qr.eml  Action required: annual benefits enrolment
+clean        0  037_txn.eml  Transaction alert: Rs 33,491 debited
+clean        0  038_txn.eml  Transaction alert: Rs 38,627 debited
+clean        0  039_txn.eml  Transaction alert: Rs 73,989 debited
+clean        0  040_txn.eml  Transaction alert: Rs 11,896 debited
+clean        0  041_txn.eml  Transaction alert: Rs 97,641 debited
+clean        0  042_txn.eml  Transaction alert: Rs 46,897 debited
+clean        0  043_txn.eml  Transaction alert: Rs 65,135 debited
+clean        0  044_txn.eml  Transaction alert: Rs 95,227 debited
+clean        5  045_kycok.eml  Periodic KYC update reminder
+clean        5  046_kycok.eml  Periodic KYC update reminder
+clean        5  047_kycok.eml  Periodic KYC update reminder
+clean        5  048_kycok.eml  Periodic KYC update reminder
+clean        5  049_mkt.eml  Festive sale: up to 70% off
+clean        5  050_mkt.eml  Festive sale: up to 70% off
+clean        5  051_mkt.eml  Festive sale: up to 70% off
+clean       10  052_mkt.eml  Festive sale: up to 70% off
+clean        5  053_mkt.eml  Festive sale: up to 70% off
+clean        0  054_internal.eml  Team lunch on Friday
+clean        0  055_internal.eml  Q3 report v1
+clean        0  056_internal.eml  Server patching window
+clean        0  057_internal.eml  Leave approval
+clean        0  058_internal.eml  Wi-Fi password rotated
+clean        0  059_internal.eml  Security awareness training
+clean        0  060_itd.eml  Intimation u/s 143(1): refund determined
+clean        0  061_itd.eml  Intimation u/s 143(1): refund determined
+clean        0  062_amzn.eml  Your reward points expire soon
+clean       10  063_shop.eml  Last chance: Diwali hampers
+phishing    55  064_list.eml  [owasp-pune] Meetup 1 slides
+phishing    55  065_list.eml  [owasp-pune] Meetup 2 slides
+phishing    55  066_list.eml  [owasp-pune] Meetup 3 slides
+clean        0  067_vendor.eml  Invoice INV-9313 for October
+clean        0  068_vendor.eml  Invoice INV-1852 for October
+clean        0  069_vendor.eml  Invoice INV-6830 for October

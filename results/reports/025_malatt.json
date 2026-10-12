@@ -1,0 +1,58 @@
+{
+  "file": "025_malatt.eml",
+  "subject": "Pending payment - invoice attached",
+  "from": "Accounts <accounts@tenders-gov.online>",
+  "verdict": "phishing",
+  "score": 85,
+  "auth": {
+    "spf": "fail",
+    "dkim": "none",
+    "dmarc": "none",
+    "dkim_domain": "tenders-gov.online",
+    "spf_aligned": true,
+    "dkim_aligned": true,
+    "reply_to_mismatch": false
+  },
+  "urls": [],
+  "attachments": [
+    {
+      "filename": "Salary_Slip.pdf.scr",
+      "content_type": "application/octet-stream",
+      "size": 41,
+      "sha256": "69adddf0029b37810b01f01f2682148fa3ff519a626f45995cdba0c764c2888c",
+      "md5": "2211b410ca9f2e643c263660c617709e"
+    }
+  ],
+  "findings": [
+    {
+      "rule": "ATT_RISKY_EXT",
+      "weight": 25,
+      "why": "risky attachment type Salary_Slip.pdf.scr",
+      "category": "attachment"
+    },
+    {
+      "rule": "ATT_DOUBLE_EXT",
+      "weight": 25,
+      "why": "double extension Salary_Slip.pdf.scr",
+      "category": "attachment"
+    },
+    {
+      "rule": "SPF_FAIL",
+      "weight": 15,
+      "why": "SPF fail",
+      "category": "auth"
+    },
+    {
+      "rule": "NO_AUTH",
+      "weight": 10,
+      "why": "no passing SPF/DKIM and no DMARC result",
+      "category": "auth"
+    },
+    {
+      "rule": "URGENCY",
+      "weight": 10,
+      "why": "generic urgency",
+      "category": "lure"
+    }
+  ]
+}

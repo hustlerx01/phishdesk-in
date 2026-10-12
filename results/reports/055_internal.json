@@ -1,0 +1,34 @@
+{
+  "file": "055_internal.eml",
+  "subject": "Q3 report v1",
+  "from": "Sneha Kulkarni <it@lab-corp.example>",
+  "verdict": "clean",
+  "score": 0,
+  "auth": {
+    "spf": "pass",
+    "dkim": "pass",
+    "dmarc": "pass",
+    "dkim_domain": "lab-corp.example",
+    "spf_aligned": true,
+    "dkim_aligned": true,
+    "reply_to_mismatch": false
+  },
+  "urls": [],
+  "attachments": [
+    {
+      "filename": "Q3_report_v1.pdf",
+      "content_type": "application/pdf",
+      "size": 12,
+      "sha256": "341c2d760045d55fa9fbdf770713898b12d0e96bff402f5697cad96b0b5fc7ea",
+      "md5": "ea355e04e2a8974cd3691bf37ac7e54a"
+    }
+  ],
+  "findings": [
+    {
+      "rule": "AUTH_ALIGNED_PASS",
+      "weight": -10,
+      "why": "DMARC pass with aligned identifier",
+      "category": "auth"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "file": "026_malatt.eml",
+  "subject": "Pending payment - invoice attached",
+  "from": "Accounts <accounts@payroll-hr.buzz>",
+  "verdict": "phishing",
+  "score": 60,
+  "auth": {
+    "spf": "fail",
+    "dkim": "none",
+    "dmarc": "none",
+    "dkim_domain": "payroll-hr.buzz",
+    "spf_aligned": true,
+    "dkim_aligned": true,
+    "reply_to_mismatch": false
+  },
+  "urls": [],
+  "attachments": [
+    {
+      "filename": "PO_45781.docm",
+      "content_type": "application/octet-stream",
+      "size": 35,
+      "sha256": "f7f3107e2d1b2b1ed5cb4ac6966d3ca0736a2a8d2ffc1b837d5b56ba917ec134",
+      "md5": "41035f79f3be631c9af2e8b24e3b0b48"
+    }
+  ],
+  "findings": [
+    {
+      "rule": "ATT_RISKY_EXT",
+      "weight": 25,
+      "why": "risky attachment type PO_45781.docm",
+      "category": "attachment"
+    },
+    {
+      "rule": "SPF_FAIL",
+      "weight": 15,
+      "why": "SPF fail",
+      "category": "auth"
+    },
+    {
+      "rule": "NO_AUTH",
+      "weight": 10,
+      "why": "no passing SPF/DKIM and no DMARC result",
+      "category": "auth"
+    },
+    {
+      "rule": "URGENCY",
+      "weight": 10,
+      "why": "generic urgency",
+      "category": "lure"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "file": "067_vendor.eml",
+  "subject": "Invoice INV-9313 for October",
+  "from": "Billing <billing@cloudhost.example>",
+  "verdict": "clean",
+  "score": 0,
+  "auth": {
+    "spf": "pass",
+    "dkim": "pass",
+    "dmarc": "pass",
+    "dkim_domain": "cloudhost.example",
+    "spf_aligned": true,
+    "dkim_aligned": true,
+    "reply_to_mismatch": false
+  },
+  "urls": [],
+  "attachments": [
+    {
+      "filename": "invoice.pdf",
+      "content_type": "application/pdf",
+      "size": 20,
+      "sha256": "cbac92652e8e3fded2ada33430be249d39eba895903f29ddb01e804bae20fc7c",
+      "md5": "a0d1232b6cf416de980696bf81b3f085"
+    }
+  ],
+  "findings": [
+    {
+      "rule": "AUTH_ALIGNED_PASS",
+      "weight": -10,
+      "why": "DMARC pass with aligned identifier",
+      "category": "auth"
+    }
+  ]
+}

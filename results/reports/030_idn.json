@@ -1,0 +1,40 @@
+{
+  "file": "030_idn.eml",
+  "subject": "Unusual sign-in to your NetBanking",
+  "from": "NetBanking <secure@xn--hdfcbnk-4wa.com>",
+  "verdict": "phishing",
+  "score": 60,
+  "auth": {
+    "spf": "pass",
+    "dkim": "pass",
+    "dmarc": "pass",
+    "dkim_domain": "xn--hdfcbnk-4wa.com",
+    "spf_aligned": true,
+    "dkim_aligned": true,
+    "reply_to_mismatch": false
+  },
+  "urls": [
+    "https://xn--hdfcbnk-4wa.com/review"
+  ],
+  "attachments": [],
+  "findings": [
+    {
+      "rule": "FROM_LOOKALIKE",
+      "weight": 35,
+      "why": "sender domain: punycode/IDN host (possible homograph)",
+      "category": "lookalike"
+    },
+    {
+      "rule": "LOOKALIKE_DOMAIN",
+      "weight": 35,
+      "why": "punycode/IDN host (possible homograph) [https://xn--hdfcbnk-4wa.com/review]",
+      "category": "url"
+    },
+    {
+      "rule": "AUTH_ALIGNED_PASS",
+      "weight": -10,
+      "why": "DMARC pass with aligned identifier",
+      "category": "auth"
+    }
+  ]
+}

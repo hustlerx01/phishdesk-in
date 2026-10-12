@@ -1,0 +1,40 @@
+{
+  "file": "029_idn.eml",
+  "subject": "Unusual sign-in to your NetBanking",
+  "from": "NetBanking <secure@xn--sb-ihp.com>",
+  "verdict": "phishing",
+  "score": 60,
+  "auth": {
+    "spf": "pass",
+    "dkim": "pass",
+    "dmarc": "pass",
+    "dkim_domain": "xn--sb-ihp.com",
+    "spf_aligned": true,
+    "dkim_aligned": true,
+    "reply_to_mismatch": false
+  },
+  "urls": [
+    "https://xn--sb-ihp.com/review"
+  ],
+  "attachments": [],
+  "findings": [
+    {
+      "rule": "FROM_LOOKALIKE",
+      "weight": 35,
+      "why": "sender domain: punycode/IDN host (possible homograph)",
+      "category": "lookalike"
+    },
+    {
+      "rule": "LOOKALIKE_DOMAIN",
+      "weight": 35,
+      "why": "punycode/IDN host (possible homograph) [https://xn--sb-ihp.com/review]",
+      "category": "url"
+    },
+    {
+      "rule": "AUTH_ALIGNED_PASS",
+      "weight": -10,
+      "why": "DMARC pass with aligned identifier",
+      "category": "auth"
+    }
+  ]
+}
