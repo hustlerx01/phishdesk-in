@@ -1,5 +1,7 @@
 # PhishDesk-IN — explainable `.eml` phishing analyser with Indian bank/UPI lure rules
 
+[![CI](https://github.com/hustlerx01/phishdesk-in/actions/workflows/ci.yml/badge.svg)](https://github.com/hustlerx01/phishdesk-in/actions/workflows/ci.yml)
+
 > **Lab project.** All 69 emails in `data/samples/` are **synthetic lab data** made by `data/generate_dataset.py`. Every message has the header `X-Lab-Data: synthetic`. Attacker domains are made-up lookalikes, IPs come from RFC 5737 documentation ranges, and the people are invented. Lure wording is paraphrased from public advisories (see Sources). Related work: [ahmedbahroun06/PhishLens](https://github.com/ahmedbahroun06/PhishLens).
 
 ## Problem
